@@ -1,6 +1,6 @@
 /*
 
-Template:  Webster - Responsive Multi-purpose HTML5 Template
+Template:  Charliemae Recruitment  - Responsive Multi-purpose HTML5 Template
 Author: potenzaglobalsolutions.com
 Design and Developed by: potenzaglobalsolutions.com
 
@@ -1057,7 +1057,7 @@ $( document ).ready(function() {
     url: 'http://themes.potenzaglobalsolutions.com/top-bar-section.php',
     type: 'post',
     //dataType: 'json',
-    data:'action=pgs_top_bar&theme=webster',
+    data:'action=pgs_top_bar&theme=Charliemae Recruitment ',
     success: function(response){
       $('body').prepend(response);
     },
