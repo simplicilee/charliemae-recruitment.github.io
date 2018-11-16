@@ -66,7 +66,7 @@ div.style-customizer .skin-perfume { background: #b3affa;}
 div.style-customizer .skin-chestnut-rose { background: #D35665;}
 div.style-customizer .skin-blue-gem { background: #5713A9;}
 div.style-customizer .skin-malachite { background: #51e887;}
- 
+
 /*Background Patterns*/
 .pattern-1 {background-image: url("../images/color-customizer/pattern-1.png");}
 .pattern-2 {background-image: url("../images/color-customizer/pattern-2.png");}
@@ -100,23 +100,70 @@ body.main-bg-10 {background-image: url("../images/color-customizer/main-bg-10.jp
 
 /*Box Layout Responsive*/
 @media (min-width: 768px) {
-.boxed-layout .page-wrapper { width: 100%;}
-.boxed-layout.page-wrapper { width: 100%;}
+    .boxed-layout .page-wrapper { width: 100%;}
+    .boxed-layout.page-wrapper { width: 100%;}
 }
 @media (min-width: 992px) {
-.boxed-layout .page-wrapper { width: 100%;}
-.boxed-layout.page-wrapper { width: 100%;}
+    .boxed-layout .page-wrapper { width: 100%;}
+    .boxed-layout.page-wrapper { width: 100%;}
 }
 @media (min-width: 1240px) {
-.boxed-layout .page-wrapper { width: 1240px; }
-.boxed-layout.page-wrapper { width: 1240px; }
+    .boxed-layout .page-wrapper { width: 1240px; }
+    .boxed-layout.page-wrapper { width: 1240px; }
 }
 .boxed-layout .fullscreen-bg {	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
 .white-bg {	background-color: #fff;}
 .patternChange .main-bg-change li.main-bg-1{background-image: url("../images/main-bg-0.jpg");}
 
 @media( max-width:992px) {
-.style-customizer { display:none !important; }
-.boxed-layout .page-wrapper { width: inherit; }
-.boxed-layout.page-wrapper { width: inherit; }
+    .style-customizer { display:none !important; }
+    .boxed-layout .page-wrapper { width: inherit; }
+    .boxed-layout.page-wrapper { width: inherit; }
+}
+
+
+.page-section-ptb h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.page-section-ptb h1:after {
+    z-index: 2;
+    content: " ";
+    display: block;
+    padding-top: 7px;
+    border-bottom: 2px solid #84ba3f;
+    width: 173px;
+    margin: 0 auto;
+}
+.page-section-ptb p {
+    /*font-size: 20px;*/
+    text-align: justify;
+    color: #333;
+}
+.page-section-ptb ul {
+    list-style-type: none;
+}
+.page-section-ptb ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.page-section-ptb ul li i {
+    font-size: 20px;
+    color: #84ba3f;
+}
+
+.page-section-ptb .name {
+    color: #84ba3f;
+}
+
+.img-map {
+    width: 50vh;
+    border: 2px solid #fff;
+}
+
+.padding-me {
+    padding: 20px 0px;
 }

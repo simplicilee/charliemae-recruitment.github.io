@@ -30,7 +30,7 @@
   @media screen and (max-width:991px) {
     .mega-menu .menu-logo > li { width: 100%; line-height: normal; }
   }
-  .mega-menu .menu-logo > li > a { margin: 0; display: inline-block; float: left; width: 100%; color: #ffffff; font-size: 0.7800em;  /*padding: 0 20px 0 45px;*/ line-height: 50px; -webkit-transition: background-color 200ms ease; transition: background-color 200ms ease; }
+  .mega-menu .menu-logo > li > a { margin: 0; display: inline-block; float: left; width: 100%; color: #ffffff; font-size: .9rem;  /*padding: 0 20px 0 45px;*/ line-height: 50px; -webkit-transition: background-color 200ms ease; transition: background-color 200ms ease; }
   .mega-menu .menu-logo > li > a:hover {  /*-------------------------------------- HOVER MENU LOGO */
 
   /*background-color: #84ba3f;*/ }
