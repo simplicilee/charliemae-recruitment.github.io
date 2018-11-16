@@ -229,30 +229,6 @@
             <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> <span>TOP</span></a></div>
         </div>
 
-        <script>
-            function getUrl(page) {
-
-                $.getScript("js/plugins-jquery.js");
-                $.getScript("js/custom.js");
-                $.getScript("js/style-customizer.min.js");
-                $.getScript("revolution/js/jquery.themepunch.tools.min.js");
-                $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
-                $('#body-container').load(page + '.html #body-container');
-                return false;
-            }
-
-            $('.menu-links li a').click(function () {
-                $.getScript("js/plugins-jquery.js");
-                $.getScript("js/custom.js");
-                $.getScript("js/style-customizer.min.js");
-                $.getScript("revolution/js/jquery.themepunch.tools.min.js");
-                $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
-
-                var page = $(this).attr('href');
-                $('#body-container').load(page + '.html #body-container');
-                return false;
-            });
-        </script>
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/plugins-jquery.js"></script>
         <script> var plugin_path = 'js/';</script>
@@ -270,5 +246,29 @@
         <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
         <script src="revolution/js/revolution-custom.js"></script> 
         <script src="js/custom.js"></script>
+        <script>
+                                        function getUrl(page) {
+
+                                            $.getScript("js/plugins-jquery.js");
+                                            $.getScript("js/custom.js");
+                                            $.getScript("js/style-customizer.min.js");
+                                            $.getScript("revolution/js/jquery.themepunch.tools.min.js");
+                                            $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
+                                            $('#body-container').load(page + '.html #body-container');
+                                            return false;
+                                        }
+
+                                        $('.menu-links li a').click(function () {
+                                            $.getScript("js/plugins-jquery.js");
+                                            $.getScript("js/custom.js");
+                                            $.getScript("js/style-customizer.min.js");
+                                            $.getScript("revolution/js/jquery.themepunch.tools.min.js");
+                                            $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
+
+                                            var page = $(this).attr('href');
+                                            $('#body-container').load(page + '.html #body-container');
+                                            return false;
+                                        });
+        </script>
     </body>
 </html>
