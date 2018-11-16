@@ -36,14 +36,6 @@
                                     </ul>
                                 </div>
                             </div>
-                            <!--                            <div class="col-lg-2 col-md-2">
-                                                            <div class="topbar-social text-center text-md-right">
-                                                                <ul>
-                                                                    <li><a href="#"><span class="ti-facebook"></span></a></li>
-                                                                    <li><a href="#"><span class="ti-instagram"></span></a></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>-->
                         </div>
                     </div>
                 </div>
@@ -219,28 +211,28 @@
         <script src="revolution/js/revolution-custom.js"></script> 
         <script src="js/custom.js"></script>
         <script>
-                                        function getUrl(page) {
+            function getUrl(page) {
 
-                                            $.getScript("js/plugins-jquery.js");
-                                            $.getScript("js/custom.js");
-                                            $.getScript("js/style-customizer.min.js");
-                                            $.getScript("revolution/js/jquery.themepunch.tools.min.js");
-                                            $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
-                                            $('#body-container').load(page + '.html #body-container');
-                                            return false;
-                                        }
+                $.getScript("js/plugins-jquery.js");
+                $.getScript("js/custom.js");
+                $.getScript("js/style-customizer.min.js");
+                $.getScript("revolution/js/jquery.themepunch.tools.min.js");
+                $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
+                $('#body-container').load(page + '.html #body-container');
+                return false;
+            }
 
-                                        $('.menu-links li a').click(function () {
-                                            $.getScript("js/plugins-jquery.js");
-                                            $.getScript("js/custom.js");
-                                            $.getScript("js/style-customizer.min.js");
-                                            $.getScript("revolution/js/jquery.themepunch.tools.min.js");
-                                            $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
+            $('.menu-links li a').click(function () {
+                $.getScript("js/plugins-jquery.js");
+                $.getScript("js/custom.js");
+                $.getScript("js/style-customizer.min.js");
+                $.getScript("revolution/js/jquery.themepunch.tools.min.js");
+                $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
 
-                                            var page = $(this).attr('href');
-                                            $('#body-container').load(page + '.html #body-container');
-                                            return false;
-                                        });
+                var page = $(this).attr('href');
+                $('#body-container').load(page + '.html #body-container');
+                return false;
+            });
         </script>
     </body>
 </html>
