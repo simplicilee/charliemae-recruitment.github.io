@@ -30,6 +30,7 @@
                             <div class="col-lg-12">
                                 <div class="topbar-call text-center text-md-left">
                                     <ul>
+                                        <li><a href="https://facebook.com/359107631507955" target="_blank" ><i class="fa fa-facebook-square"></i></a></li>
                                         <li><i class="fa fa-envelope-o theme-color"></i>For Applicants : apply.charliemae@gmail.com</li>
                                         <li><i class="fa fa-envelope-o theme-color"></i>For Clients : chameaintl2016@yahoo.com</li>
                                         <li><i class="fa fa-phone"></i> <a onclick="getUrl('contact')" > <span> +63 925 845 3667 </span> </a> </li>
@@ -213,28 +214,28 @@
         <script src="revolution/js/revolution-custom.js"></script> 
         <script src="js/custom.js"></script>
         <script>
-            function getUrl(page) {
+                                        function getUrl(page) {
 
-                $.getScript("js/plugins-jquery.js");
-                $.getScript("js/custom.js");
-                $.getScript("js/style-customizer.min.js");
-                $.getScript("revolution/js/jquery.themepunch.tools.min.js");
-                $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
-                $('#body-container').load(page + '.html #body-container');
-                return false;
-            }
+                                            $.getScript("js/plugins-jquery.js");
+                                            $.getScript("js/custom.js");
+                                            $.getScript("js/style-customizer.min.js");
+                                            $.getScript("revolution/js/jquery.themepunch.tools.min.js");
+                                            $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
+                                            $('#body-container').load(page + '.html #body-container');
+                                            return false;
+                                        }
 
-            $('.menu-links li a').click(function () {
-                $.getScript("js/plugins-jquery.js");
-                $.getScript("js/custom.js");
-                $.getScript("js/style-customizer.min.js");
-                $.getScript("revolution/js/jquery.themepunch.tools.min.js");
-                $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
+                                        $('.menu-links li a').click(function () {
+                                            $.getScript("js/plugins-jquery.js");
+                                            $.getScript("js/custom.js");
+                                            $.getScript("js/style-customizer.min.js");
+                                            $.getScript("revolution/js/jquery.themepunch.tools.min.js");
+                                            $.getScript("revolution/js/jquery.themepunch.revolution.min.js");
 
-                var page = $(this).attr('href');
-                $('#body-container').load(page + '.html #body-container');
-                return false;
-            });
+                                            var page = $(this).attr('href');
+                                            $('#body-container').load(page + '.html #body-container');
+                                            return false;
+                                        });
         </script>
     </body>
 </html>
